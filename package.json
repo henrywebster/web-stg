@@ -4,7 +4,8 @@
     "description": "A small web app stepped tone generator simulator.",
     "scripts": {
         "dev": "parcel index.html",
-        "build": "parcel build --no-minify index.html"
+        "build": "parcel build --no-minify index.html",
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -16,5 +17,15 @@
     "bugs": {
         "url": "https://github.com/henrywebster/web-stg/issues"
     },
-    "homepage": "https://github.com/henrywebster/web-stg#readme"
+    "homepage": "https://github.com/henrywebster/web-stg#readme",
+    "devDependencies": {
+        "@babel/core": "^7.13.13",
+        "@babel/preset-env": "^7.13.12",
+        "babel-jest": "^26.6.3",
+        "jest": "^26.6.3",
+        "parcel": "^2.0.0-beta.2"
+    },
+    "dependencies": {
+        "tone": "^14.7.77"
+    }
 }
