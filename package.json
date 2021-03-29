@@ -1,0 +1,20 @@
+{
+    "name": "web-stg",
+    "version": "0.0.0",
+    "description": "A small web app stepped tone generator simulator.",
+    "scripts": {
+        "dev": "parcel index.html",
+        "build": "parcel build --no-minify index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/henrywebster/web-stg.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/henrywebster/web-stg/issues"
+    },
+    "homepage": "https://github.com/henrywebster/web-stg#readme"
+}
